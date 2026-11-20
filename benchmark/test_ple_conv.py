@@ -126,7 +126,7 @@ class PLEConvNativeBenchmark(base.Benchmark):
             ]
 
 
-@pytest.mark.ple_fusion
+@pytest.mark.ple_conv
 def test_ple_short_conv_perf():
     PLEShortConvBenchmark(
         input_fn=short_conv_inputs,

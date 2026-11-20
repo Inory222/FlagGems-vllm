@@ -7,7 +7,7 @@ import torch.nn.functional as F
 
 from flaggems_vllm import ple_short_conv_
 
-pytestmark = pytest.mark.ple_fusion
+pytestmark = pytest.mark.ple_conv
 
 
 def reference(
